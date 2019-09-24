@@ -146,7 +146,7 @@ const BarChart = createReactClass({
             this.props.y0(topElement) + this.props.y(topElement)
         );
 
-        return [html, xPos, yPos];
+        return [html, xPos, yPos, d.title];
     },
 
     render() {
